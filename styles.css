@@ -1,0 +1,103 @@
+body {
+    background-color: #eef2ff;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+.main-body {
+    background-color: white;
+    width: 25vw;
+    height: 80vh;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.hero-img {
+    width: 25vw;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+h1 {
+    color: #334155;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+}
+.paragraph {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    text-align: center;
+    max-width: 15vw;
+    margin: 0 auto;
+}
+.plan-details {
+    display: flex;
+    margin: auto;
+    background-color: #eff6ff;
+    width: 21vw;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    height: 70px;
+}
+.music {
+    width: 40px;
+    height: 40px;
+    margin: auto 13px;
+   
+}
+.annual {
+    font-size: 13px;
+    padding: 10px 0 0 15px;
+    font-weight: 800;
+    color: #334155;
+    margin: auto;
+    margin-top: 8px;
+}
+.price {
+    color: hsl(224, 23%, 55%);
+    padding: 0 0 10px 15px;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 4px;
+}
+.change-link {
+    padding-left: 30px;
+    font-size: 12px;
+    margin: auto;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+.payment-proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin: 30px auto 15px;
+    text-align: center;
+    padding: 12px 0;
+    width: 20vw;
+    border-radius: 0.5rem;
+    font-size: 12px;
+    text-decoration: none;
+    box-shadow: 1px 15px 5px #f3f4f6;
+}
+.cancel-order {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    padding-left: 130px;
+    text-decoration: none;
+    font-size: 12px;
+    
+
+}
+.change-link:hover {
+    color: #c084fc;
+    text-decoration: none;
+}
+.payment-proceed:hover {
+    background-color: #c084fc;
+}
+.cancel-order:hover {
+    color: black;
+}

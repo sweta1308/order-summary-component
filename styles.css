@@ -10,8 +10,9 @@ body {
     height: 80vh;
     border-radius: 1rem;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     font-family: 'Red Hat Display', sans-serif;
+    overflow: hidden;
 }
 .hero-img {
     width: 25vw;
@@ -22,7 +23,7 @@ h1 {
     color: #334155;
     text-align: center;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 .paragraph {
     color: hsl(224, 23%, 55%);
@@ -38,17 +39,17 @@ h1 {
     width: 21vw;
     margin-top: 2rem;
     border-radius: 0.5rem;
-    height: 70px;
+    height: 4.375rem;
 }
 .music {
-    width: 40px;
-    height: 40px;
-    margin: auto 13px;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: auto 0.81rem;
    
 }
 .annual {
     font-size: 13px;
-    padding: 10px 0 0 15px;
+    padding: 0.625rem 0 0 0.94rem;
     font-weight: 800;
     color: #334155;
     margin: auto;
@@ -56,13 +57,13 @@ h1 {
 }
 .price {
     color: hsl(224, 23%, 55%);
-    padding: 0 0 10px 15px;
+    padding: 0 0 0.625rem 0.94rem;
     font-size: 13px;
     margin: auto;
     margin-top: 4px;
 }
 .change-link {
-    padding-left: 30px;
+    padding-left: 1.87rem;
     font-size: 12px;
     margin: auto;
     color: hsl(245, 75%, 52%);
@@ -73,9 +74,9 @@ h1 {
     color: white;
     font-weight: 700;
     display: block;
-    margin: 30px auto 15px;
+    margin: 1.87rem auto 0.94rem;
     text-align: center;
-    padding: 12px 0;
+    padding: 0.75rem 0;
     width: 20vw;
     border-radius: 0.5rem;
     font-size: 12px;
@@ -85,7 +86,7 @@ h1 {
 .cancel-order {
     color: hsl(224, 23%, 55%);
     font-weight: 700;
-    padding-left: 130px;
+    padding-left: 8.125rem;
     text-decoration: none;
     font-size: 12px;
     
